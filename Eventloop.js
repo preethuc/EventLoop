@@ -1,5 +1,6 @@
 const fs = require("fs");
-const crypto = require("crypto");
+import fs from 'fs'   //es6---import
+const crypto = require("crypto");   //es5---require
 start = Date.now();
 setImmediate(() => console.log("Timer 1 set "));
 setTimeout(() => console.log("Timer 1 finished"), 0);
