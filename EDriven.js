@@ -8,7 +8,7 @@ myEmitter.on("FanOn", () => {
   console.log("Feels fresh");
 });
 myEmitter.emit("FanOn");
-
+//Event Driven on server
 const http = require("http");
 const server = http.createServer();
 server.on("request", (req, res) => {
